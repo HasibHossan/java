@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- font start  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif&display=swap" rel="stylesheet">
+    <!-- font end  -->
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  
+<div class="date p-5">
+  <div class="container">
+    <p>click the button to show time and date</p>
+    <button type="button"  class="btn btn-primary" onclick="demo()">time and date</button>
+    <p id="custom"></p>
+  </div>
+</div>
+<!-- date end  -->
+<!-- light start  -->
+<div class="light p-5">
+  <div class="container">
+    <div class="blub-img"><img src="image/off.png" alt="" id="bulb"></div>
+    <div class="button mt-5">
+      <button class="on-button" type="button" onclick="bulbon()">bulb on</button>
+      <button class="off-button" type="button" onclick="bulboff()">bulb off</button>
+    </div>
+  </div>
+</div>
+<!-- light end  -->
+<!-- font size start -->
+<div class="font-size p-5">
+  <div class="container">
+    <p>font size</p>
+    <p class="change-txt" id="changetxt" >this text font will change click button</p>
+    <button type="button" onclick="txt()" >font change</button>
+  </div>
+</div>
+<!-- font size end  -->
+<!-- txt none start  -->
+<div class="txt-none p-5">
+  <div class="container">
+    <p>text display none</p>
+    <p id="txtnone">this text will disappear</p>
+    <p id="txtblock" class="txt-block">this text is block</p>
+    <button type="button" onclick="txtdisplaynone()">click here</button>
+    <button type="button" onclick="txtdisplayblock()">display block</button>
+  </div>
+</div>
+<!-- txt none end  -->
+<!-- text change start  -->
+<div class="text-change">
+  <div class="container">
+    <h2>Text change </h2>
+    <p id="txt">this text will change</p>
+    <button type="button" onclick="txtchange()">click</button>
+  </div>
+</div>
+
+<!-- text change end  -->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

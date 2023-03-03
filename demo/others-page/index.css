@@ -1,0 +1,36 @@
+.wraper{
+
+    border: 1px solid black;
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.logo img{
+    width: 50px;
+}
+
+.navi {
+    
+    margin: 00px 00px 00px 70%;
+    position: absolute;
+}
+
+.navi nav ul li {
+     list-style: none;
+     float: left;
+     margin: 2px;
+     border: 1px dashed gray;
+     
+     
+     
+
+}
+.navi nav ul li a{
+    text-decoration: none;
+   
+    
+}
